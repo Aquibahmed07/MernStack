@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex </title>
+    <style>
+        .container {
+            color:black;
+            display: flex ;
+            border: 2px solid blue;
+            width: 400px;
+            flex-direction: row;
+            padding: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 100px auto;
+        }
+
+        #c1 {
+            background-color: yellowgreen;
+        }
+
+        #c2 {
+            background-color: aquamarine;
+        }
+
+        #c3 {
+            background-color: rgb(255, 127, 202);
+        }
+
+        #c4 {
+            background-color: rgb(171, 204, 193);
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="c1" class="child">First Child</div>
+        <div id="c2" class="child">Second Child</div>
+        <div id="c3" class="child">Third Child</div>
+        <div id="c4" class="child">Fourth Child</div>
+    </div>
+</body>
+
+</html>

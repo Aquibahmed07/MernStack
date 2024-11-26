@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get element </title>
+    <script>
+        function square(){
+            var number=document.getElementById('number').value;
+            document.writeln("result of the square is="+(number*number));
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+        enter number:<input type="text" id="number"/><br/>
+        <input type="button" value="squre" onclick="square()"/>
+
+
+    </form>
+    
+</body>
+</html>

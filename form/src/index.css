@@ -1,0 +1,15 @@
+div{
+  text-align: center;
+  margin: 20px 40px 40px 20px;
+  padding: 20px 20px 20px 20px;
+}
+form{
+  margin: 20px 40px 40px 20px;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  color: red;
+}
+form input{
+  margin: 5px;
+  padding: 5px;
+}
